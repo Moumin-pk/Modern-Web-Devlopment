@@ -10,6 +10,7 @@ html, body{
     height: 100%;
 }
 #scrol{
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 1S;
     width: 10px;
     height: 10px;
     position: absolute;
@@ -41,6 +42,15 @@ html, body{
     text-decoration: none;
     color: #fff;
 }
+.bounding{
+    width: fit-content;
+    /* background-color: tomato; */
+    overflow: hidden;
+    
+}
+.bounding .boundingelem{
+    transform: translateY(100%);
+}
 
 #heading{
     margin-top: 100px;
@@ -58,6 +68,9 @@ html, body{
 }
 #heading .block{
     width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
 }
 .block h5{
     text-transform: uppercase;
@@ -70,6 +83,9 @@ html, body{
 
 }
 #sec-heading{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
    margin-top: 100px; 
    padding-right: 20px;
    
