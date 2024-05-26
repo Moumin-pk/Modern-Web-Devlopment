@@ -18,4 +18,4 @@ External libraries (Remixicon, Locomotive Scroll)
 GSAP library for animations
 
 Demo:
-(Live Demo [https://moumin-pk.github.io/Modern-Web-Devlopment/])
+[Live Demo (https://moumin-pk.github.io/Modern-Web-Devlopment/)]
